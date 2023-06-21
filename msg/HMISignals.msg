@@ -1,0 +1,17 @@
+int8 ROBOT_ORIENTED = 0
+int8 FIELD_CENTRIC = 1
+
+float64 drivetrain_fwd_back
+float64 drivetrain_left_right
+float64 drivetrain_swerve_percent_fwd_vel
+float64 drivetrain_swerve_direction
+float64 drivetrain_swerve_percent_angular_rot
+float64 drivetrain_heading
+int8 drivetrain_orientation
+bool drivetrain_brake
+bool drivetrain_xmode
+float32 actual_heading
+float32 error
+float32 initial_output_val
+float32 second_output_val
+float32 desired_heading
